@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:#adb2d3
+}
+/*aqui começam os estilos da header*/
+header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.searchBar {
+    display: flex;
+    align-items: center;
+}
+.searchBar input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.searchBar button {
+    padding: 8px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.signIn button {
+    padding: 8px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.siteName {
+    margin: 0;
+    font-size: 24px;
+}
+/* aqui terminam os estilos da header, começo da navbar: */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; 
+}
+nav ul li {
+    display: inline;
+    margin-right: 80px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+/*término dos estilos navbar, começo dos estilos da main*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+/*primeira sessão do site*/
+.first {
+    padding: auto;
+    width: 100%;
+    height: 500px;
+    background-color: #e0f0dd;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+/*segunda sessão do site*/
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.titleForBoxes{
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+}
+.boxContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+.boxContainer button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #514255;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.firstBox, .secondBox, .thirdBox, .fourthBox, .fifthBox {
+    padding: auto;
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+    background-color: #e0f0dd;
+}
+.boxContainer p {
+    text-align: center;
+}
+.box {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+/*terceira sessão do site*/
+.third{
+    padding: auto;
+    width: 100%;
+    height: 500px;
+    background-color: #e0f0dd;
+    display: flex;
+    align-items: end;
+}
+/*quarta sessão do site*/
+.fourth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+/* estilos da footer*/
+footer {
+    background-color: #68556d;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0; 
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+.section-divider {
+    border: 0;
+    border-top: 3px solid black;
+    width: 50px;
+    margin: 10px auto;
+}
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.footer-section ul, .footer-section p {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+#cusService {
+    display:block;
+}
+.footer-section ul li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.social-icons {
+    padding: 0;
+}
+.social-icons li {
+    display: inline;
+    margin: 0 5px;
+}
+.social-icons li a {
+    color: black;
+    font-size: 20px;
+}
